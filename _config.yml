@@ -4,7 +4,12 @@ email: frederick.robinson@gmail.com
 description: "Home page of Frederick Robinson."
 baseurl: ""
 url: "http://www.frrad.com"
+github_username: frrad
+twitter_username: _frrad
+linkedin_username: frrad
+
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
