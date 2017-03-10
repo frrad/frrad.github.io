@@ -2,7 +2,7 @@
 layout: post
 title:  "Embed Github PDF"
 date:   2014-06-16
-categories: note-to-self
+categories: blog
 ---
 
 Occasionally I find myself wanting to embed a pdf hosted on github in a

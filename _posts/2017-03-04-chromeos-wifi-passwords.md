@@ -2,7 +2,7 @@
 layout: post
 title:  "Retrieving Saved Wifi Passwords on ChromeOS"
 date:   2017-03-04
-categories: blog
+categories: blog,chromeos
 ---
 
 I was trying to retrieve the stored passwords from my chromebook. I came across [this blogpost](http://www.guidingtech.com/54928/view-saved-wifi-passwords-chromebook/) but their instructions had a few unnecessary steps.

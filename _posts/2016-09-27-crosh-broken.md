@@ -2,7 +2,7 @@
 layout: post
 title:  "Fixing Corrupt Crosh Window App"
 date:   2016-09-27
-categories: blog
+categories: blog,chromeos
 ---
 
 Lately whenever I try to launch crosh it shows 
