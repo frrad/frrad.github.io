@@ -6,9 +6,11 @@ categories: blog
 tags: books
 ---
 
+**Last Update: April 2017**
+
 Tor offers an [eBook of the month club](http://ebookclub.tor.com/). In return for signing up for a moderate amount of (unsubscribable) spam they send you a DRM free ebook every month. They offer both .epub and .mobi formats. So far the books have been very good too.
 
-I'm planning to keep a list of past eBooks here.
+Here's the list so far:
 
 Month    |Year|Title                   |Author
 ---------|----|------------------------|--------------
@@ -21,6 +23,4 @@ December |2016|The Towers of the Sunset|L.E. Modesitt, Jr.
 January  |2017|Off Armageddon Reef     |David Weber                        |
 February |2017|The Bloodline Feud      |Charles Stross
 March    |2017|Shadow & Claw           |Gene Wolfe
-April    |2017|                        |
-
-**Last Update: March 2017**
+April    |2017|Deathless               |Catherynne M. Valente
