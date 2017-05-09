@@ -24,3 +24,4 @@ January  |2017|Off Armageddon Reef     |David Weber                        |
 February |2017|The Bloodline Feud      |Charles Stross
 March    |2017|Shadow & Claw           |Gene Wolfe
 April    |2017|Deathless               |Catherynne M. Valente
+May      |2017|A Fire Upon the Deep    |Vernor Vinge
