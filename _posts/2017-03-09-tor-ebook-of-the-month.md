@@ -26,3 +26,4 @@ March    |2017|Shadow & Claw           |Gene Wolfe
 April    |2017|Deathless               |Catherynne M. Valente
 May      |2017|A Fire Upon the Deep    |Vernor Vinge
 June     |2017|Old Man's War           |John Scalzi
+July     |2017|Kushiel's Dart          |Jacqueline Carey
