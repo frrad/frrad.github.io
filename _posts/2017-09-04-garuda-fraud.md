@@ -6,6 +6,9 @@ categories: blog
 tags: travel
 ---
 
+*Update: got seemingly Garuda-related fraud on this card a while after doing
+this*
+
 Just got the follwing email from `GarudaVerification <GarudaVerification@garuda-indonesia.com>`. It seems pretty sketchy but discussion on [this facebook post](https://www.facebook.com/garudaindonesia/posts/1117281248386596) seems to indicate that it is real.
 
 
