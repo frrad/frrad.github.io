@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Previewing Jekyll on ChromeOS"
+title:  "Previewing Jekyll on Chrome OS"
 date:   2019-08-01
 categories: blog
 ---
 
-It's nice to be able to preview how Jekyll will render my Github Pages site
-before merging a new post. There is a minor wrinkle in ChromeOS which means that
-the default `jekyll serve` does not work.
+It's nice to be able to preview how Jekyll will render my GitHub Pages site
+before merging a new post. There is a minor wrinkle in Chrome OS which means that
+the default `Jekyll serve` does not work.
 
 At first I tired to install Jekyll deps as per [the
 docs](https://jekyllrb.com/docs/installation/ubuntu/)
