@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Previewing Jekyll on Chrome OS"
-date:   2019-08-01
+date:   2019-10-14
 categories: blog
 ---
 
