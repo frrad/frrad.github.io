@@ -1,0 +1,38 @@
+name: CV PDF in sync
+
+# The CV is authored in frrad/cv and copied here for the embed on
+# /cv.html. Nothing links the two, so this copy silently goes stale
+# whenever the CV is updated upstream. Drift is caused by changes
+# over there, not by changes here, so the schedule matters as much
+# as the pull_request trigger.
+
+on:
+  pull_request:
+  push:
+    branches: [master]
+  schedule:
+    - cron: '0 12 * * 1'
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch the CV from frrad/cv@master
+        run: |
+          curl -fsSL --retry 3 -o upstream.pdf \
+            https://raw.githubusercontent.com/frrad/cv/master/FRobinson-CV.pdf
+
+      - name: Compare against the copy in assets/
+        run: |
+          ours=$(sha256sum assets/FRobinson-CV.pdf | cut -d' ' -f1)
+          theirs=$(sha256sum upstream.pdf | cut -d' ' -f1)
+          echo "assets/FRobinson-CV.pdf  $ours"
+          echo "frrad/cv@master          $theirs"
+          if [ "$ours" != "$theirs" ]; then
+            echo "::error file=assets/FRobinson-CV.pdf::Out of sync with frrad/cv@master. Refresh it with: cp ../cv/FRobinson-CV.pdf assets/FRobinson-CV.pdf"
+            exit 1
+          fi
+          echo "In sync."
